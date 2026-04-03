@@ -7,12 +7,14 @@ venv/
 .venv/
 .omok/
 
-# VS Code 설정
-.vscode/
 
 # Pygame 관련 임시 파일
 *.log
 
+# IDE 설정 (VSCode, WebStorm)
+ .vscode/
+ .idea/
+ *.iml
 
 # 맥 OS 시스템 파일 제외
 .DS_Store
