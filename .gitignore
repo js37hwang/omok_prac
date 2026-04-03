@@ -1,3 +1,18 @@
+# 파이썬 캐시 파일 (속도 향상을 위해 자동 생성되는 파일들)
+__pycache__/
+*.py[cod]
+
+# 가상환경 (용량이 크고 환경마다 다르므로 제외)
+venv/
+.venv/
+
+# VS Code 설정
+.vscode/
+
+# Pygame 관련 임시 파일
+*.log
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
