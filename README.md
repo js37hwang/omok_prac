@@ -9,7 +9,7 @@ Pygame을 활용한 로컬 대전부터 시작하여, 향후 강화학습 AI 연
 
 * **Language**
 
-  * Python 3.10+
+  * Python 3.12.10
 
 * **Library**
 
@@ -19,7 +19,7 @@ Pygame을 활용한 로컬 대전부터 시작하여, 향후 강화학습 AI 연
 
 * **Tools**
 
-  * VS Code
+  * VS Code/ WebStorm
   * Google Colab (AI 로직 테스트용)
 
 ---
@@ -115,3 +115,20 @@ python src/main.py
 * [ ] **Ranking System**
 
   * SQLite 기반 승률 및 게임 시간 랭킹 시스템
+
+---
+
+#### commit convention
+
+| Type     | Description                          | Example                                      |
+|----------|--------------------------------------|----------------------------------------------|
+| feat     | 새로운 기능 추가                     | feat: 오목 승리 판정 알고리즘 구현           |
+| fix      | 버그 수정                            | fix: 돌이 겹쳐서 놓이는 오류 수정            |
+| docs     | 문서 수정 (README, 주석 등)          | docs: 설치 및 실행 방법 업데이트             |
+| style    | 코드 포맷팅 (로직 변경 없음)         | style: 들여쓰기 수정 및 세미콜론 추가        |
+| refactor | 코드 리팩토링                        | refactor: 중복된 보드 그리기 로직 함수화     |
+| test     | 테스트 코드 추가 및 수정             | test: 승리 조건 유닛 테스트 추가             |
+| chore    | 빌드 업무, 패키지 설정, 가상환경     | chore: .gitignore에 .omok 폴더 추가          |
+| rename   | 파일 혹은 폴더명 수정/이동           | rename: utils.py를 core/helper.py로 이동     |
+| remove   | 파일 삭제                            | remove: 사용하지 않는 이미지 자산 삭제       |
+| comment  | 주석 추가 및 변경                    | comment: 주요 함수 설명 주석 추가            |
