@@ -5,6 +5,7 @@ __pycache__/
 # 가상환경 (용량이 크고 환경마다 다르므로 제외)
 venv/
 .venv/
+.omok/
 
 # VS Code 설정
 .vscode/
@@ -13,8 +14,12 @@ venv/
 *.log
 
 
+# 맥 OS 시스템 파일 제외
+.DS_Store
+
+
+
 # Byte-compiled / optimized / DLL files
-__pycache__/
 *.py[codz]
 *$py.class
 
