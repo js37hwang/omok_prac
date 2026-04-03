@@ -54,7 +54,7 @@ def DrawStones(screen, omokpan):
 
     for i in range(len(omokpan)):
         for j in range(len(omokpan[i])):
-            if omokpan[i][j] != Stone.EMPTY.value:
+            if omokpan[i][j] != Stone.EMPTY:
                 color = BLACK_COLOR if omokpan[i][j] == Stone.BLACK else WHITE_COLOR
                 center = (MARGIN + j * CELL_SIZE, MARGIN + i * CELL_SIZE)
                 pygame.draw.circle(screen, color, center, CELL_SIZE // 2 - 2)

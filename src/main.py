@@ -28,7 +28,7 @@ def main():
                 if pos:
                     row, col = pos
                     # 클릭된 위치에 돌이 없을 경우 판정 진행
-                    if game.omokpan[row][col] == Stone.EMPTY.value:
+                    if game.omokpan[row][col] == Stone.EMPTY:
                         game.omokpan[row][col] = game.currentPlayer
 
                         # TODO: 여기서 판정 로직(CheckWin) 호출
