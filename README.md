@@ -91,7 +91,7 @@ gomoku-project/
 ### 1️⃣ 라이브러리 설치
 
 ```bash
-pip install pygame
+python install -r requierments.txt
 ```
 
 ### 2️⃣ 게임 실행
