@@ -1,4 +1,4 @@
-# ⚪⚫ Gomoku Engine: Python & AI Project
+# ⚪⚫ Omoku Engine: Python & AI Project
 
 객체지향 기반 오목 게임 프로젝트입니다.
 Pygame을 활용한 로컬 대전부터 시작하여, 향후 강화학습 AI 연동 및 React 기반 웹 서비스 확장을 목표로 합니다.
